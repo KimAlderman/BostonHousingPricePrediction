@@ -18,7 +18,7 @@ This was my second project in my Machine Learning Nanodegree at Udacity. Tools a
 Two changes I would make now that I have more experience with machine learning algorithms:
 
 1. I would use randomizedsearch instead of gridsearch for hyperparameter tuning. It has proven more robust at finding optimal values and is usually faster on very large data sets.
-2. In evaluating the reasonableness of predictions for the three properties, in addition to using statistics (mean, median, standard deviations), I would utilized sklearns nearest neighbor function. Example code:
+2. In evaluating the reasonableness of predictions for the three properties, in addition to using statistics (mean, median, standard deviations), I would utilize sklearn's nearest neighbor function. Example code:
 
 ```python
 from sklearn.neighbors import NearestNeighbors
